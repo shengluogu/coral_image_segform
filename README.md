@@ -16,7 +16,7 @@ Foundation Model Image Segmentation Competition Project
   </table>
 </div>
 
-
+可看出,比赛给出的真实标签有错标现象(如第三张右侧中间和第四张右侧中上部),经过我的脏数据处理方法,可有效降低脏数据影响
 <h3 align="center">Qualitative Results Comparison</h3>
 
 <div align="center">
