@@ -15,3 +15,37 @@ Foundation Model Image Segmentation Competition Project
     </tr>
   </table>
 </div>
+
+
+<h3 align="center">Qualitative Results Comparison</h3>
+
+<div align="center">
+  <table style="border-collapse: collapse; border: none;">
+    <tr>
+      <!-- 第一行：普通场景 -->
+      <td align="center" style="border: none; padding: 10px;">
+        <b>Standard Prediction</b><br>
+        <img src="assets/showcase/0237.png" width="350px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br><sub>Baseline performance on clean data</sub>
+      </td>
+      <td align="center" style="border: none; padding: 10px;">
+        <b>Standard Prediction (Case 2)</b><br>
+        <img src="assets/showcase/0397.png" width="350px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br><sub>Consistent results</sub>
+      </td>
+    </tr>
+    <tr>
+      <!-- 第二行：脏数据处理场景（重点） -->
+      <td align="center" style="border: none; padding: 10px; background-color: #f0f7ff;">
+        <b>Dirty Data Handling ✨</b><br>
+        <img src="assets/showcase/0435.png" width="350px" style="border: 2px solid #0969da; border-radius: 8px;"/>
+        <br><sub>Effective noise reduction</sub>
+      </td>
+      <td align="center" style="border: none; padding: 10px; background-color: #f0f7ff;">
+        <b>Dirty Data Handling ✨</b><br>
+        <img src="assets/showcase/1185.png" width="350px" style="border: 2px solid #0969da; border-radius: 8px;"/>
+        <br><sub>Robust against occlusion</sub>
+      </td>
+    </tr>
+  </table>
+</div>
