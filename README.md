@@ -17,7 +17,7 @@ Foundation Model Image Segmentation Competition Project
 </div>
 
 
-<h3 align="center">Qualitative Comparison</h3>
+## Qualitative Comparison
 
 <div align="center">
     <p style="max-width: 800px; text-align: left; margin-bottom: 10px;">
@@ -49,3 +49,4 @@ Foundation Model Image Segmentation Competition Project
     </tr>
   </table>
 </div>
+## 
