@@ -16,22 +16,24 @@ Foundation Model Image Segmentation Competition Project
   </table>
 </div>
 
-可看出,比赛给出的真实标签有错标现象(如第三张右侧中间和第四张右侧中上部),经过我的脏数据处理方法,可有效降低脏数据影响
-<h3 align="center">Qualitative Results Comparison</h3>
+
+<h3 align="center">Qualitative Comparison</h3>
 
 <div align="center">
+    <p style="max-width: 800px; text-align: left; margin-bottom: 10px;">
+    可观察到比赛提供的真实标签存在一定错标现象（如绿色圈出部分）。
+    针对该问题，采用脏数据处理方法后，可有效降低噪声标签的影响。
+  </p>
   <table style="border-collapse: collapse; border: none;">
     <tr>
       <!-- 第一行：普通场景 -->
       <td align="center" style="border: none; padding: 10px;">
         <b>Standard Prediction</b><br>
         <img src="assets/showcase/0435.png" width="350px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-        <br><sub>Baseline performance on clean data</sub>
       </td>
       <td align="center" style="border: none; padding: 10px;">
         <b>Standard Prediction (Case 2)</b><br>
         <img src="assets/showcase/1185.png" width="350px" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-        <br><sub>Consistent results</sub>
       </td>
     </tr>
     <tr>
@@ -39,12 +41,10 @@ Foundation Model Image Segmentation Competition Project
       <td align="center" style="border: none; padding: 10px; background-color: #f0f7ff;">
         <b>Dirty Data Handling ✨</b><br>
         <img src="assets/showcase/0237.png" width="350px" style="border: 2px solid #0969da; border-radius: 8px;"/>
-        <br><sub>Effective noise reduction</sub>
       </td>
       <td align="center" style="border: none; padding: 10px; background-color: #f0f7ff;">
         <b>Dirty Data Handling ✨</b><br>
         <img src="assets/showcase_dity/0995.png" width="350px" style="border: 2px solid #0969da; border-radius: 8px;"/>
-        <br><sub>Robust against occlusion</sub>
       </td>
     </tr>
   </table>
